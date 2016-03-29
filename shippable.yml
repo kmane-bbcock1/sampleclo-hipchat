@@ -18,13 +18,13 @@ build:
     
 integrations:
     notifications:
-        - integrationName: ship-hipchat
+        - integrationName: chat-hip
           type: hipchat
           recipients:
-           # - '#hitchcock1'
+            - '#hitchcock1'
             - '#hitchcock1pvt'
             - '@shiphitchcock1'
-          on_start: never
-          on_success: never
-          on_failure: never
-          on_pull_request: never 
+          on_start: always
+          on_success: always
+          on_failure: always
+          on_pull_request: always 
