@@ -21,10 +21,10 @@ integrations:
         - integrationName: ship-hipchat
           type: hipchat
           recipients:
-            - '#hitchcock1'
+           # - '#hitchcock1'
             - '#hitchcock1pvt'
             - '@shiphitchcock1'
-          on_start: never
-          on_success: change
-          on_failure: change
-          on_pull_request: never 
+        #  on_start: never
+         # on_success: change
+          #on_failure: change
+          #on_pull_request: never 
