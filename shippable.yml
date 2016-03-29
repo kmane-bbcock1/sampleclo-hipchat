@@ -13,7 +13,7 @@ build:
     #- mkdir -p shippable/codecoverage
     - cd sample  
     - lein test2junit
-    - timeout 5#to fail this build
+    #- timeout 5#to fail this build
    
     
 integrations:
@@ -27,4 +27,4 @@ integrations:
           on_start: never
           on_success: change
           on_failure: change
-          on_pull_request: always  
+          on_pull_request: never 
