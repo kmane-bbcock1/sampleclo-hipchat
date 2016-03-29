@@ -24,7 +24,7 @@ integrations:
             - '#hitchcock1'
             - '#hitchcock1pvt'
             - '@shiphitchcock1'
-          on_start: always
+          on_start: never
           on_success: change
           on_failure: change
           on_pull_request: always  
