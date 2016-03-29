@@ -19,7 +19,7 @@ build:
 integrations:
     notifications:
         - integrationName: ship-hipchat
-          type: hip
+          type: hipchat
           recipients:
             - '#hitchcock1'
             - '#hitchcock1pvt'
